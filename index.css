@@ -1,0 +1,49 @@
+@font-face { font-family: NecroSans; src: url('necrosans.ttf'); }
+
+body {
+  background: url('background.png') no-repeat center center fixed;
+  margin: 0;
+  font-family: NecroSans;
+}
+
+.footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:20px;
+   width:100%;
+   text-align: center;
+   font-size: 16px;
+   color: white;
+}
+
+#outer {
+  width: 829px;
+  height: 202px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#links {
+  text-align: center;
+  color: white;
+  font-size: 28px;
+  margin-top: 2%;
+}
+
+a:link {
+  text-decoration: none;
+  color: #FFD200
+}
+
+a:visited {
+  color: #FF6C00
+}
+
+a:hover {
+  color: #FFFFFF
+}
