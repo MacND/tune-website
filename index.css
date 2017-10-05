@@ -1,7 +1,7 @@
 @font-face { font-family: NecroSans; src: url('necrosans.ttf'); }
 
 body {
-  background: url('background.png') no-repeat center center fixed;
+  background: url('/background.png') no-repeat center center fixed;
   margin: 0;
   background-size: cover;
   font-family: NecroSans;
